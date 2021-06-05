@@ -1,0 +1,94 @@
+#datascript/DB {:schema
+ {:create/user
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :plugin/id {:db/unique :db.unique/identity},
+  :node/subpages
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :vc/blocks
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :edit/seen-by
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :window/id {:db/unique :db.unique/identity},
+  :attrs/lookup
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :node/windows
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :d/v
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :block/clone
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :node/sections
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :harc/v
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :node/title {:db/unique :db.unique/identity},
+  :block/refs
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :harc/a
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :edit/user
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :block/subpage
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :block/children
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :block/focused-user
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :create/seen-by
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :block/uid {:db/unique :db.unique/identity},
+  :d/e
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :d/a
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :user/uid {:db/unique :db.unique/identity},
+  :node/links
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :link/to
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :user/email {:db/unique :db.unique/identity},
+  :query/results
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :harc/e
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :block/parents
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/many},
+  :graph/name {:db/unique :db.unique/identity},
+  :block/page
+  {:db/valueType :db.type/ref, :db/cardinality :db.cardinality/one},
+  :version/id {:db/unique :db.unique/identity}},
+ :datoms
+ [[1 :version/id "0.0.0" 536870913]
+  [1
+   :version/nonce
+   "uuida231391d-1407-4a1b-ad0b-ab408dbbc664"
+   536870913]
+  [1
+   :version/upgraded-nonce
+   "uuida231391d-1407-4a1b-ad0b-ab408dbbc664"
+   536870914]
+  [2 :version/id "0.8.5" 536870914]
+  [2
+   :version/nonce
+   "uuid93e06454-1e6a-4cee-b7cd-654cc921a438"
+   536870919]
+  [3 :block/uid "oZNKqf6z0" 536870915]
+  [3 :user/uid "IZ47TZ54XWU1477FdHkkHyAPbrG3" 536870915]
+  [4 :block/children 5 536870917]
+  [4 :block/uid "06-05-2021" 536870916]
+  [4 :create/time 1622880253823 536870916]
+  [4 :create/user 3 536870916]
+  [4 :edit/time 1622880253823 536870916]
+  [4 :edit/user 3 536870916]
+  [4 :log/id 1622880253819 536870916]
+  [4 :node/title "June 5th, 2021" 536870916]
+  [5 :block/open true 536870917]
+  [5 :block/order 0 536870917]
+  [5 :block/page 4 536870918]
+  [5 :block/parents 4 536870918]
+  [5 :block/string "My first note" 536870919]
+  [5 :block/uid "n8vq-ZRz8" 536870917]
+  [5 :create/time 1622880283219 536870917]
+  [5 :create/user 3 536870917]
+  [5 :edit/time 1622880294696 536870919] 
+  [5 :edit/user 3 536870917]]}
