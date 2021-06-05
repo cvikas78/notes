@@ -1,1 +1,2 @@
-- My first note
+- ARE YOU AWARE NOW
+- CAN YOU STOP BEING
