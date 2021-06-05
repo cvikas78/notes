@@ -1,6 +1,6 @@
 [
   {
-    "create-time": 1622887304649,
+    "create-time": 1622890673325,
     "title": "June 5th, 2021",
     ":create/user": {
       ":user/uid": "IZ47TZ54XWU1477FdHkkHyAPbrG3"
@@ -17,6 +17,32 @@
         ":edit/user": {
           ":user/uid": "IZ47TZ54XWU1477FdHkkHyAPbrG3"
         }
+      },
+      {
+        "string": "Import",
+        "children": [
+          {
+            "string": "[[June 5th, 2021]]",
+            "refs": [
+              {
+                "uid": "06-05-2021"
+              }
+            ],
+            "children": [
+              {
+                "string": "From: roam.json",
+                "uid": "XsOTwAzM1"
+              }
+            ],
+            "uid": "4n_QwVha_",
+            ":block/refs": [
+              {
+                ":block/uid": "06-05-2021"
+              }
+            ]
+          }
+        ],
+        "uid": "NiZWQrske"
       },
       {
         "string": "CAN YOU STOP BEING",
