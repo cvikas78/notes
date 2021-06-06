@@ -70,8 +70,8 @@
   [2 :version/id "0.8.5" 536870914]
   [2
    :version/nonce
-   "uuid5e4130ef-7243-4e9f-bc3f-341330632ab1"
-   536870988]
+   "uuid6d3e0380-f5ae-4f9b-8879-b8d12a59a06b"
+   536870991]
   [3 :block/uid "oZNKqf6z0" 536870915]
   [3
    :user/settings
@@ -156,4 +156,11 @@
   [65 :block/open true 536870990]
   [65 :block/order 0 536870990]
   [65 :block/string "From: cvikas78 (2).json" 536870990]
-  [65 :block/uid "sBta9F69L" 536870990]]}
+  [65 :block/uid "sBta9F69L" 536870990]
+  [66 :block/uid "06-06-2021" 536870991]
+  [66 :create/time 1622943043129 536870991]
+  [66 :create/user 3 536870991]
+  [66 :edit/time 1622943043129 536870991]
+  [66 :edit/user 3 536870991]
+  [66 :log/id 1622943043128 536870991]
+  [66 :node/title "June 6th, 2021" 536870991]]}
